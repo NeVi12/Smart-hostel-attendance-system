@@ -56,3 +56,16 @@ Real-time API for dashboards
 Auto-create required tables (student_fingerprints)
 
 Auto-add missing columns and indexes in students table
+
+
+🧠 Tech Stack
+| Component               | Technology                        |
+| ----------------------- | --------------------------------- |
+| Backend Framework       | Flask (Python)                    |
+| Database                | Microsoft SQL Server              |
+| ORM/DB Driver           | pyODBC                            |
+| Authentication          | Flask Session + Werkzeug Security |
+| Fingerprint Integration | Hikvision API Client              |
+| Frontend                | HTML, CSS, Jinja2 Templates       |
+| Data Format             | JSON, CSV                         |
+| Hosting                 | Localhost or VPS with MSSQL       |
